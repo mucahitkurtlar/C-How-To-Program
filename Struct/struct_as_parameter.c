@@ -17,6 +17,6 @@ int main() {
   return 0;
 }
 
-void displayStudent(struct student s) {
+void displayStudent(struct student s) { //Struct tanımları da tıkı diğer değişkenler gibi fonksiyon parametresi olarak pass edilebilir
     printf("Name: %s\nID: %s\nAge: %d\n", s.name, s.id, s.age);
 }
